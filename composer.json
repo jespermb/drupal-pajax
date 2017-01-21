@@ -20,12 +20,12 @@
         "dist": {
           "url": "https://github.com/pajax/pajax.git",
           "type": "git",
-          "reference": "3f608fc"
+          "reference": "v0.5.2"
         }
       }
     }
   },
   "require": {
-    "pajax/pajax": "dev-master#v0.5.2"
+    "pajax/pajax": "v0.5.2"
   }
 }
