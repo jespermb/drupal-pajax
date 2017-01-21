@@ -1,0 +1,5 @@
+name: pajax
+type: module
+description: Provides pajax loading for drupal
+core: 8.x
+package: Custom

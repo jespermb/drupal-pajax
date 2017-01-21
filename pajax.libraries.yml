@@ -1,0 +1,5 @@
+pajax:
+  version: 1.x
+  js:
+    pajax/pajax: {}
+    js/pajax.site.js: {}

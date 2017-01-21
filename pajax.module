@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains pajax.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pajax_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pajax module.
+    case 'help.page.pajax':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides pajax loading for drupal') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function pajax_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'pajax/pajax';
+}
