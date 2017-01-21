@@ -15,16 +15,17 @@
       "type": "package",
       "package": {
         "name": "pajax/pajax",
-        "version": "v0.5.4",
+        "version": "v0.5.2",
         "type": "drupal-library",
         "dist": {
           "url": "https://github.com/pajax/pajax.git",
-          "type": "git"
+          "type": "git",
+          "reference": "3f608fc"
         }
       }
     }
   },
   "require": {
-    "pajax/pajax": "dev-master#v0.5.4"
+    "pajax/pajax": "dev-master#v0.5.2"
   }
 }
