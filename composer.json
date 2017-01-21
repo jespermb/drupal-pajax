@@ -26,6 +26,6 @@
     }
   },
   "require": {
-    "pajax/pajax": "0.5.4"
+    "pajax/pajax": "dev-master#0.5.4"
   }
 }
