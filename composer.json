@@ -17,8 +17,8 @@
         "name": "pajax/pajax",
         "version": "0.5.4",
         "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/pajax/pajax.git",
+        "source": {
+          "url": "git@github.com:pajax/pajax.git",
           "type": "git",
           "reference": "985b8dfd354c8a92401d9ba83d5d960824d29d8c"
         }
