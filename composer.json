@@ -24,5 +24,7 @@
       }
     }
   },
-  "require": { }
+  "require": {
+    "pajax/pajax": "v0.5.4"
+  }
 }
